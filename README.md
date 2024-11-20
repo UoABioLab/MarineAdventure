@@ -5,7 +5,7 @@
 ## 返回主页
 
 游戏结束后可以点击"Quit"按钮返回到主页：
-[https://uoabiolab.github.io/GameIndex/](https://uoabiolab.github.io/GameIndex/)
+[https://uoabiolab.github.io/MarineAdventure/](https://uoabiolab.github.io/MarineAdventure/)
 
 ## 技术栈
 

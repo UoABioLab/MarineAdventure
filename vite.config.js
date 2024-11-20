@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/GameIndex/',
+  base: '/MarineAdventure/',
   plugins: [vue()],
   server: {
     port: 9205
