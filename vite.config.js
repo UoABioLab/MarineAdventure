@@ -15,7 +15,10 @@ export default defineConfig({
         manualChunks: {
           'mediapipe-pose': ['@mediapipe/pose'],
           'tensorflow': ['@tensorflow/tfjs-core', '@tensorflow/tfjs-backend-webgl']
-        }
+        },
+        assetFileNames: 'assets/[name].[hash].[ext]',
+        chunkFileNames: 'assets/[name].[hash].js',
+        entryFileNames: 'assets/[name].[hash].js'
       }
     }
   },
