@@ -11,6 +11,9 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
+      input: {
+        main: './index.html'
+      },
       output: {
         manualChunks: {
           'mediapipe-pose': ['@mediapipe/pose'],
